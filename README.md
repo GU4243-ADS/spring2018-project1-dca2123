@@ -4,16 +4,12 @@
 ----
 
 
-### [Project Description](doc/)
+### [SPOOKY Data Analysis: Comparing sentiments and topics between authors](doc/)
 This is the first and only *individual* (as opposed to *team*) this semester. 
++ This project is conducted by David Arredondo
 
 Term: Spring 2018
-
-+ Project title: SPOOKY Data Analysis: Compareing sentiments and topics between authors
-+ This project is conducted by David Arredondo
-+ Project summary: [a short summary] 
-
-Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is organized as follows.
+This folder is organized as follows.
 
 ```
 proj/
@@ -23,5 +19,19 @@ proj/
 ├── figs/
 └── output/
 ```
-
 Please see each subfolder for a README file.
+
+### Project summary: Using sentiment analysis and topic modeling, I illustrate the differneces between the sentences of Edgar Allen Poe
+### (EAP), H.P. Lovecraft (HPL), and Mary Wollstencraft Shelly (MWS).
+
+#### Description of the Data:
+The SPOOKY data set consists of several thousand sentences from each of EAP, HPL, and MWS. These sentences were labeled with unique ids,
+and with their respective authors.
+
+I chose to work exclusively with the sentences seperated into three groups by auhtor.
+
+Here's a quick illustration of the dataframes:
+
+
+
+
