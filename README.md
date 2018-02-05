@@ -21,7 +21,7 @@ proj/
 Please see each subfolder for a README file.
 
 ## Project summary: 
-### Using sentiment analysis and topic modeling, I illustrate the differneces between the sentences of Edgar Allen Poe (EAP), H.P. Lovecraft (HPL), and Mary Wollstencraft Shelly (MWS).
+### Using sentiment analysis and topic modeling, I illustrate the differences between the sentences of Edgar Allen Poe (EAP), H.P. Lovecraft (HPL), and Mary Wollstencraft Shelly (MWS).
 
 #### Description of the Data
 The SPOOKY data set consists of several thousand sentences from each of EAP, HPL, and MWS. These sentences were labeled with unique ids,
@@ -50,13 +50,13 @@ MWS, comparitively, swings through positive and negative sentiments far more oft
 
 EAP and MWS tend to be more positive than negative on average; HPL favors negativity.
 
+
 #### Topic Modeling: Comparing and contrasting Non-negative Matrix Factorization (NMF) and Latent Dirichlet Allocation LDA)
 
-I will focus mainly on the difference between LDA and NMF with MWS, because 1. this phase of the analysis is almost purely subjective and my analysis and bias would be redundant if indulged further, and 2. MWS had the most convincing topics.
-See the python notebook for inter author topic comparison.
-
-I chose tfidf as it provided, in my opinion, better results, and because nmf does not work with simple counts; it requires
-tfidf, and I wanted to compare nmf and lda on as equal terms as possible.
+I will focus mainly on the difference between LDA and NMF with MWS, because 
+1. this phase of the analysis is almost purely subjective and my analysis and bias would be redundant if indulged further, and 
+2. MWS had the most convincing topics.
+See the python notebook for inter-author topic comparison.
 
 Finally, I claim that nmf provides more human interpretable topics. Obviously, human interpretability is secondary for the author classification problem, but this is an oppurtunity to dicover which algorithm gets closer to human thought, as an intellectual exercise.
 
@@ -111,4 +111,25 @@ I think that nmf works better because it doesn't force a probablity interpretati
 However, nmf is then difficult to quantify explain, while LDA provides easy interpretation, such as 
 "this term is most likely to occur in this topic." Thus, it makes for a better and more interperatable visualization.
 
-![LDA MWS Viz](https://github.com/GU4243-ADS/spring2018-project1-dca2123/blob/master/figs/LDA_viz_mws.html)
+Two ways to view the visualization (do make the effort--its a neat tool for visualizing lda):
+
+1. Go to the python notebook in the docs section (it ends with .ipynb), and scroll down to the LDA visualization section.
+
+2. First, fork this repo. Then click the below link. Now, click on the screen button (this is to the right of the button that says 
+"History," and left of the edit button). This will open the folder containing the file. It does this via github desktop. Now, click on 
+"LDA\_viz\_mws" 
+This will open the html file in your browser of choice.
+
+[LDA MWS Viz](https://github.com/GU4243-ADS/spring2018-project1-dca2123/blob/master/figs/LDA_viz_mws.html)
+
+#### Installing Python
+
+All data scientists should be at least passingly familiar with python, and should be able to run that code on their computers. Take this as an oppurtunity to become more familiar with the language, and better at collaborating with python coders.
+
+[Click on this link to download anaconda](https://conda.io/docs/user-guide/install/index.html#regular-installation)
+
+Choose the operation system you use, then follow the download instructions. 
+
+I used a Jupyter notebook for my project. Jupyter notebooks also run R notebooks, in addition to python notebooks. They are worth
+looking into.
+
