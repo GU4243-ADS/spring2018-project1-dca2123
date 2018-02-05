@@ -9,8 +9,8 @@ This is the first and only *individual* (as opposed to *team*) this semester.
 
 Term: Spring 2018
 
-+ Project title: [a title]
-+ This project is conducted by [your name]
++ Project title: SPOOKY Data Analysis: Compareing sentiments and topics between authors
++ This project is conducted by David Arredondo
 + Project summary: [a short summary] 
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is organized as follows.
