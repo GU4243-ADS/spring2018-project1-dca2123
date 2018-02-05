@@ -111,4 +111,4 @@ I think that nmf works better because it doesn't force a probablity interpretati
 However, nmf is then difficult to quantify explain, while LDA provides easy interpretation, such as 
 "this term is most likely to occur in this topic." Thus, it makes for a better and more interperatable visualization.
 
-![LDA MWS Viz](https://github.com/GU4243-ADS/spring2018-project1-dca2123/blob/master/figs/LDA_viz_mws.html)
+[LDA MWS Viz](https://./LDA_viz_mws.html)
