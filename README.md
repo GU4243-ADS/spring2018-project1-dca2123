@@ -53,15 +53,12 @@ EAP and MWS tend to be more positive than negative on average; HPL favors negati
 #### Topic Modeling: Comparing and contrasting Non-negative Matrix Factorization (NMF) and Latent Dirichlet Allocation LDA)
 
 I will focus mainly on the difference between LDA and NMF with MWS, because 1. this phase of the analysis is almost purely subjective and my analysis and bias would be redundant if indulged further, and 2. MWS had the most convincing topics.
+See the python notebook for inter author topic comparison.
 
-Finally, I chose tfidf as it provided, in my opinion, better results, and because nmf does not work with simple counts; it requires
+I chose tfidf as it provided, in my opinion, better results, and because nmf does not work with simple counts; it requires
 tfidf, and I wanted to compare nmf and lda on as equal terms as possible.
 
-I claim that nmf provides more human interpretable topics. Obviously, human interpretability is secondary for the author classification problem, but this is an oppurtunity to dicover which algorithm gets closer to human thought, as an intellectual exercise.
-
-NMF on the other hand, provides a whole slew of accurate and recognizable topics. These include the warm, positive emotions of topic 2,
-and then intense negativity of topic 14. Topics 5, 6, 12 and 13 also allow clear interpretation. 
-Only three or so topics are complete nonsense.
+Finally, I claim that nmf provides more human interpretable topics. Obviously, human interpretability is secondary for the author classification problem, but this is an oppurtunity to dicover which algorithm gets closer to human thought, as an intellectual exercise.
 
 ##### LDA
 ```
@@ -107,3 +104,10 @@ and then intense negativity of topic 14. Topics 5, 6, 12 and 13 also allow clear
 Only three or so topics are complete nonsense.
 
 #### Visualization of LDA
+
+Although I prefer Non-negative Matrix Factorization for its tendency to give subjectively better results,
+LDA does have the advantage of a probability interpretation. NMF is a purely linear algebra way of reorganizing the data. 
+I think that nmf works better because it doesn't force a probablity interpretation onto the data, and lets the data "speak for itself." 
+However, nmf is then difficult to quantify explain, while LDA provides easy interpretation, such as 
+"this term is most likely to occur in this topic." Thus, it makes for a better and more interperatable visualization.
+
